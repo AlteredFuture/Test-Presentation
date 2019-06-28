@@ -189,7 +189,7 @@ addEventListener("load", () => {
   }
 
   window.matchMedia("print").addListener(onPrint);
-  document.addEventListener("click", onClick);
+  //document.addEventListener("click", onClick);
   document.addEventListener("keydown", onKeyDown);
   document.addEventListener("touchstart", e => {
     if (big.mode !== "talk") return;
